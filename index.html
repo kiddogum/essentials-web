@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg p-0 z-1">
+      <div
+        class="container-fluid py-3 px-5 position-fixed top-0 start-0 bg-ligr"
+      >
+        <a class="navbar-brand" href="#hero">
+          <img src="assets/logo.webp" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+        >
+          <i class="bi bi-list text-black fs-1"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item me-lg-5">
+              <a class="nav-link" href="#collection">Collection</a>
+            </li>
+            <li class="nav-item me-lg-5">
+              <a class="nav-link" href="#colors">Colors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#social-media">Social Media</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="hero">
+      <div class="container px-5">
+        <div class="d-flex d-md-inline-flex flex-column">
+          <h1 class="text-white custom-m1 mb-3">Comfort.</h1>
+          <a
+            href="#collection"
+            class="text-white text-center border border-white rounded-1 py-3 bg-button"
+            >Discover The New Style</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section id="collection">
+      <div class="container px-5 my-5">
+        <div class="text-center">
+          <h2>Collection</h2>
+          <p class="mb-5">Essential Clothing</p>
+
+          <div class="gy-3 row justify-content-center">
+            <div class="position-relative collection-card col-md-6 col-lg-3">
+              <img
+                src="assets/collection_hoodie.png"
+                alt=""
+                class="rounded-4 bg-secondary"
+              />
+              <h3 class="position-absolute collection-hover center">Hoodie</h3>
+            </div>
+
+            <div class="position-relative collection-card col-md-6 col-lg-3">
+              <img
+                src="assets/collection_sweatshirt.webp"
+                alt=""
+                class="rounded-4 bg-secondary"
+              />
+              <h3 class="position-absolute collection-hover center">
+                Sweat Shirt
+              </h3>
+            </div>
+
+            <div class="position-relative collection-card col-md-6 col-lg-3">
+              <img
+                src="assets/collection_tshirt_2.webp"
+                alt=""
+                class="rounded-4 bg-secondary"
+              />
+              <h3 class="position-absolute collection-hover center">
+                T - Shirt
+              </h3>
+            </div>
+
+            <div class="position-relative collection-card col-md-6 col-lg-3">
+              <img
+                src="assets/collection_tracksuit.webp"
+                alt=""
+                class="rounded-4 bg-secondary"
+              />
+              <h3 class="position-absolute collection-hover center">
+                Track Suit
+              </h3>
+            </div>
+            <p class="text-start text-sm">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+              illum culpa officiis repellendus nam fugiat asperiores
+              perferendis, suscipit alias aperiam, voluptas accusantium. Cum
+              magnam nam dolorum, similique nostrum voluptatum ex?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="colors">
+      <div class="container px-5 my-5">
+        <div class="text-center">
+          <h2>Colors</h2>
+          <p class="mb-5">The Perfect You</p>
+
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="assets/colors_cream.jpg"
+                  class="d-block w-100 carousel-img"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Cream</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="assets/colors_olive.webp"
+                  class="d-block w-100 carousel-img"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Olive</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="assets/colors_white.webp"
+                  class="d-block w-100 carousel-img"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>White</h5>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="social-media">
+      <div class="container px-5 my-5">
+        <div class="text-center">
+          <h2>Social Media Stories</h2>
+          <p class="mb-5">Join The Community</p>
+
+          <div class="img-grid gy-3 justify-content-center">
+            <img src="assets/sm-1-lg.webp" class="img-1 img-lg" />
+            <img src="assets/sm-1.avif" class="img-2 img-sm" />
+            <img src="assets/sm-2.webp" class="img-3 img-sm" />
+            <img src="assets/sm-3.webp" class="img-4 img-sm" />
+            <img src="assets/sm-4.jpg" class="img-5 img-sm" />
+            <img src="assets/sm-2-lg.jpg" class="img-6 img-lg" />
+            <img src="assets/sm-3-lg.jpg" class="img-7 img-lg" />
+            <img src="assets/sm-5.webp" class="img-8 img-sm" />
+            <img src="assets/sm-6.jpg" class="img-9 img-sm" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="get-started">
+      <div class="container px-5 my-5">
+        <div class="text-center bg-secondary rounded-4 p-5">
+          <p>Are You Ready?</p>
+          <h2 class="my-4 px-md-4 mx-lg-5 px-lg-5">
+            Be a Part of The Next Big Thing
+          </h2>
+          <a href="#footer" class="btn btn-dark py-3 px-5">Get Started</a>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div class="container my-5 pt-md-5">
+        <div class="text-left d-flex mt-5 row">
+          <div class="my-3 col-lg-4">
+            <h2>NewsLetter</h2>
+            <p>Latest News Directly In Your Inbox</p>
+            <a href="#" class="btn btn-dark w-100 py-3 px-5">Subscribe</a>
+          </div>
+
+          <div class="my-3 col-lg-4">
+            <h2>Contact</h2>
+            <p>Do You Have Any Questions?</p>
+            <a href="#" class="btn btn-dark w-100 py-3 px-5">Contact Form</a>
+          </div>
+
+          <div class="my-3 col-lg-4">
+            <h2>Social Media</h2>
+            <p>Get In Touch With Us via Social Media</p>
+            <div class="mb-3 d-flex gap-2 gap-lg-3">
+              <a href="#" class="btn btn-dark p-3 py-lg-2">
+                <i class="bi bi-instagram text-white fs-3"></i>
+              </a>
+              <a href="#" class="btn btn-dark p-3 py-lg-2">
+                <i class="bi bi-facebook text-white fs-3"></i>
+              </a>
+              <a href="#" class="btn btn-dark p-3 py-lg-2">
+                <i class="bi bi-twitter text-white fs-3"></i>
+              </a>
+              <a href="#" class="btn btn-dark p-3 py-lg-2">
+                <i class="bi bi-pinterest text-white fs-3"></i>
+              </a>
+            </div>
+          </div>
+          <div class="w-75 mx-auto d-flex justify-content-center">
+            <img src="assets/logo.webp" class="mt-5 pt-5 footer-img" />
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
